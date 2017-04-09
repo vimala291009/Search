@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (2)" project="Search" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.Springer.StepDefs.Runner" time="0.439">
+    <testsuite name="Feature: Springer Search Functionality Test" time="0.439">
+      <testsuite name="Scenario Outline: Search the Valid article keyword" time="0.439">
+        <testsuite name="Examples:" time="0.439">
+          <testsuite name="| fever |" time="0.439">
+            <testcase name="Given I am in search page" classname="| fever |" time="0.245"/>
+            <testcase name="When I enter fever in search text box" classname="| fever |" time="0.179"/>
+            <testcase name="And Click on Search button" classname="| fever |" time="0.001"/>
+            <testcase name="Then I can see the list of results" classname="| fever |" time="0.014"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

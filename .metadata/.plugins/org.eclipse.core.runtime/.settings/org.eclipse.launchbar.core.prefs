@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Runner,org.eclipse.launchbar.core.descriptorType.default\:Search (1),org.eclipse.launchbar.core.descriptorType.default\:Search,org.eclipse.launchbar.core.descriptorType.default\:C__Users_User_.m2_repository_org_apache_httpcomponents_httpclient_4.3.4_httpclient-4.3.4.jar,org.eclipse.launchbar.core.descriptorType.default\:Runner (1),org.eclipse.launchbar.core.descriptorType.default\:Runner (2),org.eclipse.launchbar.core.descriptorType.default\:Search (2)
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Runner\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Runner\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Runner\ (2)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Runner/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Runner/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

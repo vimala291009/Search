@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (2)" project="Search" tests="12" started="12" failures="2" errors="0" ignored="0">
+  <testsuite name="com.Springer.StepDefs.Runner" time="36.346">
+    <testsuite name="Feature: Springer Search Functionality Test" time="36.346">
+      <testsuite name="Scenario Outline: Search the Valid article keyword" time="36.346">
+        <testsuite name="Examples:" time="36.346">
+          <testsuite name="| fever | yes |" time="3.091">
+            <testcase name="Given I am in search page" classname="| fever | yes |" time="0.254"/>
+            <testcase name="When I enter fever in search text box" classname="| fever | yes |" time="0.185"/>
+            <testcase name="And Click on Search button" classname="| fever | yes |" time="2.652"/>
+            <testcase name="Then I can see the yes list of results" classname="| fever | yes |" time="0.0"/>
+          </testsuite>
+          <testsuite name="| 2017 | no |" time="4.002">
+            <testcase name="Given I am in search page" classname="| 2017 | no |" time="0.205"/>
+            <testcase name="When I enter 2017 in search text box" classname="| 2017 | no |" time="0.149"/>
+            <testcase name="And Click on Search button" classname="| 2017 | no |" time="3.646"/>
+            <testcase name="Then I can see the no list of results" classname="| 2017 | no |" time="0.002"/>
+          </testsuite>
+          <testsuite name="| 71837293710 | no |" time="2.9" incomplete="true">
+            <failure>java.lang.AssertionError: Results not found&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at com.Springer.StepDefs.SearchSteps.i_can_see_the_list_of_results(SearchSteps.java:49)&#13;
+	at ✽.Then I can see the no list of results(Search.feature:11)&#13;
+&#13;
+</failure>
+            <testcase name="Given I am in search page" classname="| 71837293710 | no |" time="0.332"/>
+            <testcase name="When I enter 71837293710 in search text box" classname="| 71837293710 | no |" time="2.242"/>
+            <testcase name="And Click on Search button" classname="| 71837293710 | no |" time="0.322"/>
+            <testcase name="Then I can see the no list of results" classname="| 71837293710 | no |" time="0.004">
+              <failure>java.lang.AssertionError: Results not found&#13;
+	at org.junit.Assert.fail(Assert.java:88)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at com.Springer.StepDefs.SearchSteps.i_can_see_the_list_of_results(SearchSteps.java:49)&#13;
+	at ✽.Then I can see the no list of results(Search.feature:11)&#13;
+&#13;
+</failure>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

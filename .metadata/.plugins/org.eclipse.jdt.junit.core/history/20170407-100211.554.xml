@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (2)" project="Search" tests="16" started="16" failures="0" errors="0" ignored="3">
+  <testsuite name="com.Springer.StepDefs.Runner" time="39.408">
+    <testsuite name="Feature: Springer Search Functionality Test" time="39.408">
+      <testsuite name="Scenario Outline: Search the Valid article keyword" time="39.408">
+        <testsuite name="Examples:" time="39.408">
+          <testsuite name="| fever | yes |" time="3.042">
+            <testcase name="Given I am in search page" classname="| fever | yes |" time="0.264"/>
+            <testcase name="When I enter fever in search text box" classname="| fever | yes |" time="0.215"/>
+            <testcase name="And Click on Search button" classname="| fever | yes |" time="2.562"/>
+            <testcase name="Then I can see the yes list of results" classname="| fever | yes |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| &quot;cancer&quot; | yes |" time="0.007" incomplete="true">
+            <skipped/>
+            <testcase name="Given I am in search page" classname="| &quot;cancer&quot; | yes |" time="0.003"/>
+            <testcase name="When I enter &quot;cancer&quot; in search text box" classname="| &quot;cancer&quot; | yes |" time="0.001" ignored="true"/>
+            <testcase name="And Click on Search button" classname="| &quot;cancer&quot; | yes |" time="0.002" ignored="true"/>
+            <testcase name="Then I can see the yes list of results" classname="| &quot;cancer&quot; | yes |" time="0.001" ignored="true"/>
+          </testsuite>
+          <testsuite name="| 2017 | no |" time="2.918">
+            <testcase name="Given I am in search page" classname="| 2017 | no |" time="0.239"/>
+            <testcase name="When I enter 2017 in search text box" classname="| 2017 | no |" time="0.169"/>
+            <testcase name="And Click on Search button" classname="| 2017 | no |" time="2.509"/>
+            <testcase name="Then I can see the no list of results" classname="| 2017 | no |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| 71837293710 | no |" time="2.622">
+            <testcase name="Given I am in search page" classname="| 71837293710 | no |" time="0.268"/>
+            <testcase name="When I enter 71837293710 in search text box" classname="| 71837293710 | no |" time="0.183"/>
+            <testcase name="And Click on Search button" classname="| 71837293710 | no |" time="2.156"/>
+            <testcase name="Then I can see the no list of results" classname="| 71837293710 | no |" time="0.015"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

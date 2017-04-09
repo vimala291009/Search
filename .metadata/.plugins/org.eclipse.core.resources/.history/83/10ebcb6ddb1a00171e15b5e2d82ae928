@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.Springer.Search;
+
+/**
+ * @author User
+ *
+ */
+public abstract class TestRunner {
+
+}

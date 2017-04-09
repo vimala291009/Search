@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (2)" project="Search" tests="12" started="12" failures="0" errors="0" ignored="0">
+  <testsuite name="com.Springer.StepDefs.Runner" time="29.704">
+    <testsuite name="Feature: Springer Search Functionality Test" time="29.704">
+      <testsuite name="Scenario Outline: Search the Valid article keyword" time="29.704">
+        <testsuite name="Examples:" time="29.704">
+          <testsuite name="| fever | yes |" time="3.482">
+            <testcase name="Given I am in search page" classname="| fever | yes |" time="0.291"/>
+            <testcase name="When I enter fever in search text box" classname="| fever | yes |" time="2.826"/>
+            <testcase name="And Click on Search button" classname="| fever | yes |" time="0.364"/>
+            <testcase name="Then I can see the yes list of results" classname="| fever | yes |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| 2017 | yes |" time="2.94">
+            <testcase name="Given I am in search page" classname="| 2017 | yes |" time="0.229"/>
+            <testcase name="When I enter 2017 in search text box" classname="| 2017 | yes |" time="0.253"/>
+            <testcase name="And Click on Search button" classname="| 2017 | yes |" time="2.457"/>
+            <testcase name="Then I can see the yes list of results" classname="| 2017 | yes |" time="0.001"/>
+          </testsuite>
+          <testsuite name="| 71837293710 | no |" time="2.192">
+            <testcase name="Given I am in search page" classname="| 71837293710 | no |" time="0.286"/>
+            <testcase name="When I enter 71837293710 in search text box" classname="| 71837293710 | no |" time="0.199"/>
+            <testcase name="And Click on Search button" classname="| 71837293710 | no |" time="1.618"/>
+            <testcase name="Then I can see the no list of results" classname="| 71837293710 | no |" time="0.089"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

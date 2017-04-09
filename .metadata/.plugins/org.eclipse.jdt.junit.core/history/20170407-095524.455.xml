@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner (2)" project="Search" tests="16" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.Springer.StepDefs.Runner" incomplete="true">
+    <testsuite name="Feature: Springer Search Functionality Test" incomplete="true">
+      <testsuite name="Scenario Outline: Search the Valid article keyword" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| fever | yes |" incomplete="true">
+            <testcase name="Given I am in search page" classname="| fever | yes |" time="0.223"/>
+            <testcase name="When I enter fever in search text box" classname="| fever | yes |" time="0.163"/>
+            <testcase name="And Click on Search button" classname="| fever | yes |" incomplete="true"/>
+            <testcase name="Then I can see the yes list of results" classname="| fever | yes |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| &quot;cancer&quot; | yes |" incomplete="true">
+            <testcase name="Given I am in search page" classname="| &quot;cancer&quot; | yes |" incomplete="true"/>
+            <testcase name="When I enter &quot;cancer&quot; in search text box" classname="| &quot;cancer&quot; | yes |" incomplete="true"/>
+            <testcase name="And Click on Search button" classname="| &quot;cancer&quot; | yes |" incomplete="true"/>
+            <testcase name="Then I can see the yes list of results" classname="| &quot;cancer&quot; | yes |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| 2017 | no |" incomplete="true">
+            <testcase name="Given I am in search page" classname="| 2017 | no |" incomplete="true"/>
+            <testcase name="When I enter 2017 in search text box" classname="| 2017 | no |" incomplete="true"/>
+            <testcase name="And Click on Search button" classname="| 2017 | no |" incomplete="true"/>
+            <testcase name="Then I can see the no list of results" classname="| 2017 | no |" incomplete="true"/>
+          </testsuite>
+          <testsuite name="| 71837293710 | no |" incomplete="true">
+            <testcase name="Given I am in search page" classname="| 71837293710 | no |" incomplete="true"/>
+            <testcase name="When I enter 71837293710 in search text box" classname="| 71837293710 | no |" incomplete="true"/>
+            <testcase name="And Click on Search button" classname="| 71837293710 | no |" incomplete="true"/>
+            <testcase name="Then I can see the no list of results" classname="| 71837293710 | no |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
